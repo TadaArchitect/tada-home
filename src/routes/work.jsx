@@ -1,19 +1,23 @@
-export default function Work() {
+export default function Work(props) {
+    const works = props.works;
     return(
         <main>
         <div class="title-box">
             <h1 class="work-margin">宿泊施設</h1>
-            <div class="work-card work-practice">
+            {works.map((work => work.type === "accommodation" ? (
+                <div class="work-card work-practice">
                 <div class="work-box">
-                    <a href="detail01"><img src="images/work01.jpg" alt=""/></a>
+                    <img src={work.thumbnailImageUrl} alt=""/>
                     <div class="mask">
-                        <div class="caption">
-                            {/* ⤴️<br/> */}
-                            KATADA Lodge&Villa
-                        </div>
+                        <a href={`/work/${work.path}`}>
+                            <div class="caption">
+                                {work.caption}
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
+            ): <></>))}
         </div>
         <div class="title-box">
             <h1 class="work-margin">住宅</h1>

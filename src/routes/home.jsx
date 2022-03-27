@@ -1,13 +1,12 @@
 import { Link } from "react-router-dom";
-import logo from './logo.svg';
-import db from "./firebase";
+import db from "../firebase";
 import { doc, collection, getDocs, onSnapshot } from "firebase/firestore";
 import React, { useEffect, useState } from "react";
 // import { useEffect } from "react";
 
 
 
-function App() {
+function Home() {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
@@ -101,4 +100,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
