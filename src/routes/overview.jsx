@@ -1,11 +1,11 @@
 export default function Overview() {
     return(
         <main>
-            <div class="title-box">
+            <div className="title-box">
                 <h1>事務所概要</h1>
             </div>
-            <div class="overview">
-                <div class="overview-text">
+            <div className="overview">
+                <div className="overview-text">
                     <p>一級建築士事務所
                         多田建築設計事務所
                         神奈川県知事登録 第 18263 号
@@ -20,7 +20,7 @@ export default function Overview() {
                         まずはお気軽にお問い合わせください。店舗、医院、商業施設等の設計・監理も致しております。お気軽にご相談ください。
                         お手紙、メール、電話:0466-42-1793 お問い合わせフォーム からどうそ。</p>
                 </div>
-                <div class="overview-img">
+                <div className="overview-img">
                     <p><img src="images/overview.jpg" alt=""/></p>
                 </div>
             </div>

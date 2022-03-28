@@ -27,44 +27,44 @@ function Home() {
 
   return (
     <main>
-        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="8000">
-                <img src="images/1.jpg" class="d-block w-100" alt="..."/>
+        <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
+            <div className="carousel-inner">
+              <div className="carousel-item active" data-bs-interval="8000">
+                <img src="images/1.jpg" className="d-block w-100" alt="..."/>
               </div>
-              <div class="carousel-item" data-bs-interval="2000">
-                <img src="images/2.jpg" class="d-block w-100" alt="..."/>
+              <div className="carousel-item" data-bs-interval="2000">
+                <img src="images/2.jpg" className="d-block w-100" alt="..."/>
               </div>
-              <div class="carousel-item">
-                <img src="images/3.jpg" class="d-block w-100" alt="..."/>
+              <div className="carousel-item">
+                <img src="images/3.jpg" className="d-block w-100" alt="..."/>
               </div>
-              <div class="carousel-item">
-                <img src="images/4.jpg" class="d-block w-100" alt="..."/>
+              <div className="carousel-item">
+                <img src="images/4.jpg" className="d-block w-100" alt="..."/>
               </div>
-              <div class="carousel-item">
-                <img src="images/5.jpg" class="d-block w-100" alt="..."/>
+              <div className="carousel-item">
+                <img src="images/5.jpg" className="d-block w-100" alt="..."/>
               </div>
-              <div class="carousel-item">
-                <img src="images/6.jpg" class="d-block w-100" alt="..."/>
+              <div className="carousel-item">
+                <img src="images/6.jpg" className="d-block w-100" alt="..."/>
               </div>
-              <div class="carousel-item">
-                <img src="images/7.jpg" class="d-block w-100" alt="..."/>
+              <div className="carousel-item">
+                <img src="images/7.jpg" className="d-block w-100" alt="..."/>
               </div>
-              <div class="carousel-item">
-                <img src="images/8.jpg" class="d-block w-100" alt="..."/>
+              <div className="carousel-item">
+                <img src="images/8.jpg" className="d-block w-100" alt="..."/>
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
+            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span className="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
+            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span className="carousel-control-next-icon" aria-hidden="true"></span>
+              <span className="visually-hidden">Next</span>
             </button>
         </div>
 
-        <div class="home-text">
+        <div className="home-text">
             <p><img src="images/hiroshi.jpg" alt=" "/></p>
             <p>はじめまして。多田建築設計事務所の多田博と申します。</p>
             <p><span>「シンプルに住まうことが豊かな人生をもたらす」</span><br/>
@@ -81,12 +81,12 @@ function Home() {
             <p>素敵なみなさまともご縁をいただけますと嬉しく存じます。</p>
         </div>
 
-        <div class="news">
+        <div className="news">
             <h1>NEWS</h1>
               {posts.map((post) => (
-                <div class="news-box" key={post.title}>
-                  <p class="time">{post.text}</p>
-                  <p class="news-list"><a href="">{post.title}</a></p>
+                <div className="news-box" key={post.title}>
+                  <p className="time">{post.text}</p>
+                  <p className="news-list"><a href="">{post.title}</a></p>
                 </div>
               ))}
             <a href="https://blog.arttada.com/"><img src="images/blog.png" alt=""/></a>

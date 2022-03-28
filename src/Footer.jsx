@@ -3,7 +3,7 @@ export default function Footer() {
         <footer>
             <p><small>Copyright(C)2001-2021 TADA Architects Associates. All Rights Reserved.</small></p>
             <nav>
-                <ul class="footer-menu">
+                <ul className="footer-menu">
                     <li class="menu-list"><a href="">事務所概要</a></li>
                     <li class="menu-list"><a href="">お問い合わせ</a></li>
                     <li class="menu-list"><a href="">多田裕子ブログ</a></li>
@@ -11,7 +11,7 @@ export default function Footer() {
                     <li class="menu-list"><a href="">プライバシーポリシー</a></li>
                 </ul>
             </nav>
-            <div class="">
+            <div className="">
                 <p>〒252-0804</p>
                 <p>神奈川県藤沢市湘南台5-1-3-607</p>
                 <p>TEL : 0466-42-1793</p>

@@ -1,7 +1,7 @@
 export default function Profile() {
     return (
         <main>
-            <div class="title-box profile-title">
+            <div className="title-box profile-title">
                 <h1>多田 博（ただ ひろし）</h1>
                 <p><img src="images/hiroshi.jpg" alt=""/></p>
                 <p>多田建築設計事務所主宰</p>

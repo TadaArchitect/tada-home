@@ -2,11 +2,11 @@ export default function Detail(props) {
     const work = props.work
     return(
         <main>
-            <div class="title-box">
+            <div className="title-box">
                 <h1>{work.title}</h1>
             </div>
-            <div class="detail-box">
-                <div class="detail-img">
+            <div className="detail-box">
+                <div className="detail-img">
                     {
                         work.images.map((image) => 
                             <a href={image.imageUrl}>
@@ -15,7 +15,7 @@ export default function Detail(props) {
                         )
                     }
                 </div>
-                <div class="detail-text">
+                <div className="detail-text">
                     {work.text}
                 </div>
             </div>

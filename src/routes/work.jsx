@@ -2,15 +2,15 @@ export default function Work(props) {
     const works = props.works;
     return(
         <main>
-        <div class="title-box">
-            <h1 class="work-margin">宿泊施設</h1>
+        <div className="title-box">
+            <h1 className="work-margin">宿泊施設</h1>
             {works.map((work => work.type === "accommodation" ? (
-                <div class="work-card work-practice">
-                <div class="work-box">
+                <div className="work-card work-practice">
+                <div className="work-box">
                     <img src={work.thumbnailImageUrl} alt=""/>
-                    <div class="mask">
+                    <div className="mask">
                         <a href={`/work/${work.path}`}>
-                            <div class="caption">
+                            <div className="caption">
                                 {work.caption}
                             </div>
                         </a>
