@@ -4,11 +4,15 @@ header {
   justify-content: space-around;
   align-items: center;
   color: #000;
+  height: 190px;
+  z-index: -100;
+}
+header nav {
   border-bottom: 1px solid #d9d9d9;
-  height: 170px;
 }
 header nav ul {
   display: flex;
+  margin-right: 120px;
 }
 header nav ul li {
   list-style: none;
@@ -19,13 +23,30 @@ header nav ul li a {
   color: #000;
 }
 header nav ul li + li {
-  margin-left: 45px;
+  margin-left: 40px;
 }
 header .header-box p {
   font-size: 12px;
   margin-bottom: 0;
+  line-height: 18px;
 }
 
+@media only screen and (max-width: 992px) {
+  header nav img {
+    width: 200px;
+  }
+  header nav ul {
+    text-align: left;
+    margin-left: 27px;
+  }
+  header nav ul li + li {
+    margin-left: 0px;
+  }
+  header nav .header-box {
+    margin-left: 27px;
+    margin-top: 10px;
+  }
+}
 main p {
   margin-bottom: 1rem;
   line-height: 25px;
