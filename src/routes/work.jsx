@@ -5,22 +5,36 @@ export default function Work(props) {
         <div className="title-box">
             <h1 className="work-margin">宿泊施設</h1>
             {works.map((work => work.type === "accommodation" ? (
-                <div className="work-card work-practice">
-                <div className="work-box">
-                    <img src={work.thumbnailImageUrl} alt=""/>
-                    <div className="mask">
-                        <a href={`/work/${work.path}`}>
-                            <div className="caption">
-                                {work.caption}
-                            </div>
-                        </a>
+                <div className="work-card">
+                    <div className="work-box">
+                        <img src={work.thumbnailImageUrl} alt=""/>
+                        <div className="mask">
+                            <a href={`/work/${work.path}`}>
+                                <div className="caption">
+                                    {work.caption}
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
             ): <></>))}
         </div>
         <div class="title-box">
             <h1 class="work-margin">住宅</h1>
+            {works.map((work => work.type === "housing" ? (
+                <div className="work-card work-practice">
+                    <div className="work-box">
+                        <img src={work.thumbnailImageUrl} alt=""/>
+                        <div className="mask">
+                            <a href={`/work/${work.path}`}>
+                                <div className="caption">
+                                    {work.caption}
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            ): <></>))}
             <div class="work-card">
                 <div class="work-box">
                     <img src="images/work02.jpg" alt=""/>
