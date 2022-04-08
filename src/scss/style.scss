@@ -6,7 +6,8 @@ header {
     color: #000;
     // border-bottom: 1px solid #d9d9d9;
     // padding-bottom: 150px;
-    height: 190px;
+    // height: 190px;
+    margin-bottom: 130px;
     z-index: -100;
 
     // p > a > img {
@@ -52,6 +53,7 @@ header {
 
 @media only screen and (max-width: 992px) {
     header {
+        margin-bottom: 80px;
 
         nav {
 
@@ -114,23 +116,45 @@ main {
         }
     }
 
-    // @media (min-width: 320px) {
-    //     .carousel,
-    //     .carousel .item,
-    //     .carousel .item-mask,
-    //     .carousel-inner .item .item-mask img {
-    //       height:200px;
-    //     }
-    //   }
-      
-    //   @media (min-width: 768px) {
-    //     .carousel,
-    //     .carousel .item,
-    //     .carousel .item-mask,
-    //     .carousel-inner .item .item-mask img {
-    //       height:400px;
-    //     }
-    //   }
+    @media only screen and (max-width: 992px) {
+        .carousel {
+            width: 90%;
+            height: 480px;
+        }
+    }
+
+    @media only screen and (max-width: 852px) {
+        .carousel {
+            height: 420px;
+        }
+    }
+
+    @media only screen and (max-width: 702px) {
+        .carousel {
+            height: 370px;
+        }
+    }
+
+    @media only screen and (max-width: 652px) {
+        .carousel {
+            height: 300px;
+        }
+    }
+
+    @media only screen and (max-width: 562px) {
+        .carousel {
+            padding-top: 10px;
+            height: 270px;
+        }
+    }
+
+    @media only screen and (max-width: 462px) {
+        .carousel {
+            width: 100%;
+            height: 230px;
+        }
+    }
+
 
     .home-text {
         width: 70%;
@@ -149,6 +173,12 @@ main {
 
         span {
             font-weight: bold;
+        }
+    }
+
+    @media only screen and (max-width: 492px) {
+        .home-text {
+            width: 80%;
         }
     }
 
@@ -185,10 +215,12 @@ main {
                 width: 60%;
             }
         }
+    }
 
-
-
-
+    @media only screen and (max-width: 492px) {
+        .news {
+            width: 80%;
+        }
     }
 
     .sns {
@@ -234,6 +266,30 @@ footer {
     }
 }
 
+@media only screen and (max-width: 992px) {
+    footer {
+        display: block;
+        text-align: center;
+        height: 290px;
+
+        .copyRight {
+            padding: 20px 0;
+        }
+
+        ul {
+
+            li {
+                margin: 10px 0;
+            }
+        }
+
+        .footer-text {
+            margin: 20px 0;
+            line-height: 18px;
+        }
+    }
+}
+
 
 // philosophy.html
 .title-box {
@@ -254,6 +310,101 @@ footer {
     }
 }
 
+@media only screen and (max-width: 1400px) {
+    .title-box {
+        
+        p > img {
+            width: 1050px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .title-box {
+        
+        p > img {
+            width: 900px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1010px) {
+    .title-box {
+        
+        p > img {
+            width: 800px;
+        }
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .title-box {
+        
+        p > img {
+            width: 700px;
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .title-box {
+        
+        p > img {
+            width: 620px;
+        }
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .title-box {
+        
+        p > img {
+            width: 520px;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .title-box {
+        
+        p > img {
+            width: 460px;
+        }
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .title-box {
+        
+        p > img {
+            width: 400px;
+        }
+    }
+}
+
+@media only screen and (max-width: 462px) {
+    .title-box {
+
+        h1 {
+            padding-top: 30px;
+        }
+
+        p > img {
+            width: 320px;
+            height: 120px;
+        }
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .title-box {
+        
+        p > img {
+            width: 310px;
+        }
+    }
+}
+
 .philosophy-list {
     width: 60%;
     margin: 0 auto;
@@ -270,6 +421,13 @@ footer {
         margin-bottom: 100px;
     }
 }
+
+@media only screen and (max-width: 800px) {
+    .philosophy-list {
+        width: 80%;
+    }
+}
+
 
 .concept {
     width: 80%;
@@ -307,6 +465,76 @@ footer {
         }
     }
 }
+
+@media only screen and (max-width: 1200px) {
+    .concept {
+
+        .concept-img {
+    
+            img {
+                max-width: 400px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1020px) {
+    .concept {
+
+        .concept-img {
+    
+            img {
+                max-width: 350px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .concept {
+        width: 80%;
+        display: block;
+        margin-bottom: 30px;
+    
+        .concept-img {
+            width: 100%;
+            margin-bottom: 35px;
+    
+            p {
+                text-align: center;
+
+                img {
+                    width: 350px;
+                    height: 350px;
+                    object-fit: cover;
+                }
+            }
+        }
+    
+        .concept-text {
+            width: 100%;
+        }
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .concept {
+
+        .concept-img {
+            margin-bottom: 20px;
+    
+            p {
+
+                img {
+                    width: 320px;
+                    height: 320px;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}
+
 
 .housing-design {
     display: flex;
@@ -347,6 +575,71 @@ footer {
         }
     }
 }
+
+@media only screen and (max-width: 1020px) {
+    .housing-design {
+
+        .housing-design-img {
+    
+            img {
+                max-width: 350px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .housing-design {
+        width: 80%;
+        // display: block;
+        flex-direction: column-reverse;
+        margin-bottom: 30px;
+    
+        .housing-design-img {
+            width: 100%;
+            margin-bottom: 35px;
+    
+            p {
+                text-align: center;
+
+                img {
+                    width: 350px;
+                    height: 350px;
+                    object-fit: cover;
+                }
+            }
+        }
+    
+        .housing-design-box {
+            width: 100%;
+            margin-left: 80px;
+        }
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .housing-design {
+
+        .housing-design-img {
+            margin-bottom: 20px;
+    
+            p {
+
+                img {
+                    width: 320px;
+                    height: 320px;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}
+
+// @media only screen and (max-width: 462px) {
+//     .housing-design-box {
+//         margin-right: 0px;
+//     }
+// }
 
 
 // work.html
@@ -505,6 +798,15 @@ footer {
     a {
         text-decoration: none;
         color: #5fa6ac;
+    }
+}
+
+@media only screen and (max-width: 462px) {
+    .profile-title {
+
+        h1 {
+            font-size: 28px;
+        }
     }
 }
 
