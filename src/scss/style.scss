@@ -150,7 +150,6 @@ main {
 
     @media only screen and (max-width: 462px) {
         .carousel {
-            width: 100%;
             height: 230px;
         }
     }
@@ -774,6 +773,13 @@ footer {
     }
 }
 
+@media only screen and (max-width: 462px) {
+    .magazine-text {
+        padding-bottom: 20px;
+        margin-bottom: 50px;
+    }
+}
+
 
 // profile.html
 .profile-title {
@@ -811,6 +817,12 @@ footer {
         h1 {
             font-size: 28px;
         }
+
+        p > img {
+            object-fit: cover;
+            width: 200px;
+            height: 200px;
+        }
     }
 }
 
@@ -830,6 +842,47 @@ footer {
 
         p {
             margin-bottom: 40px;
+        }
+    }
+}
+
+@media only screen and (max-width: 782px) {
+    .overview {
+        flex-direction: column-reverse;
+
+        .overview-text {
+            width: 90%;
+    
+            p {
+                margin-bottom: 30px;
+            }
+        }
+
+        .overview-img {
+
+            img {
+                // object-fit: cover;
+                width: 100%;
+                height: 250px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .overview {
+
+        .overview-text {
+            width: 100%;
+        }
+
+        .overview-img {
+
+            img {
+                // object-fit: cover;
+                width: 100%;
+                height: 200px;
+            }
         }
     }
 }
@@ -866,6 +919,56 @@ footer {
             span {
                 font-weight: bolder;
                 color: #565656;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 988px) {
+    .flow {
+        flex-direction: column-reverse;
+
+        .flow-box {
+            width: 90%;
+        }
+
+        .flow-img {
+            margin-bottom: 30px;
+             
+            img {
+                width: 100%;
+                height: 250px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 462px) {
+    .flow {
+
+        .flow-box {
+            width: 100%;
+    
+            .flow-list {
+                color: #333;
+                margin-bottom: 40px;
+    
+                h2 {
+                    font-size: 18px;
+                    font-weight: bold;
+                }
+    
+                p {
+                    line-height: 20px;
+                }
+            }
+        }
+        
+        .flow-img {
+            margin-bottom: 20px;
+             
+            img {
+                height: 200px;
             }
         }
     }
