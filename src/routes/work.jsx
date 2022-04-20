@@ -2,7 +2,7 @@ export default function Work(props) {
     const works = props.works;
     return(
         <main>
-        <div className="title-box">
+        <div className="title-box work-width">
             <h1 className="work-margin">宿泊施設</h1>
             {works.map((work => work.type === "accommodation" ? (
                 <div className="work-card">
@@ -19,10 +19,10 @@ export default function Work(props) {
                 </div>
             ): <></>))}
         </div>
-        <div class="title-box">
+        <div class="title-box work-width">
             <h1 class="work-margin">住宅</h1>
             {works.map((work => work.type === "housing" ? (
-                <div className="work-card work-practice">
+                <div className="work-card">
                     <div className="work-box">
                         <img src={work.thumbnailImageUrl} alt=""/>
                         <div className="mask">
@@ -164,7 +164,7 @@ export default function Work(props) {
                 </div>
             </div>
         </div>
-        <div class="title-box">
+        <div class="title-box work-width">
             <h1 class="work-margin">デザイン</h1>
             <div class="work-card">
                 <div class="work-box">
