@@ -2,7 +2,7 @@ export default function Detail(props) {
     const work = props.work
     return(
         <main>
-            <div className="title-box">
+            <div className="title-box detail-titleBox">
                 <h1>{work.title}</h1>
             </div>
             <div className="detail-box">
