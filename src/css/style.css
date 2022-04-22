@@ -31,6 +31,29 @@ header .header-box p {
   line-height: 18px;
 }
 
+@media only screen and (max-width: 1300px) {
+  header nav ul {
+    display: flex;
+    margin-right: 80px;
+  }
+  header nav ul li {
+    list-style: none;
+  }
+  header nav ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #000;
+  }
+  header nav ul li + li {
+    margin-left: 10px;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  header nav img {
+    width: 200px;
+    height: auto;
+  }
+}
 @media only screen and (max-width: 992px) {
   header {
     margin-bottom: 80px;
@@ -566,6 +589,18 @@ footer .footer-text {
   width: 30%;
   font-size: 16px;
   line-height: 24px;
+}
+
+.detail-image {
+  width: 80%;
+}
+.detail-image a {
+  width: 200px;
+  height: auto;
+}
+.detail-image a img {
+  width: 200px;
+  height: auto;
 }
 
 @media only screen and (max-width: 1200px) {

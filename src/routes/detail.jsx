@@ -1,3 +1,6 @@
+// import headerImg from "images/name.jpeg";
+// import backImg from "../images/workBack.png";
+
 export default function Detail(props) {
     const work = props.work
     return(
@@ -19,7 +22,7 @@ export default function Detail(props) {
                     {work.text}
                 </div>
             </div>
-            <a href="work"><img src="images/workBack.png" alt="" /></a>
+            <p className="detail-image"><a href="detail"><img src="images/workBack.png" alt="" /></a></p>
         </main>
     );
 }
