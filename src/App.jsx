@@ -30,6 +30,7 @@ function App() {
       const workMap = new Map();
       snapShot.docs.forEach(doc => {
         const work = doc.data();
+        work.path = doc.id;
         workMap.set(work.path, work)
       });
       setWorkMap(workMap);
@@ -40,6 +41,7 @@ function App() {
       const workMap = new Map();
       workData.docs.forEach(doc => {
         const work = doc.data();
+        work.path = doc.id;
         workMap.set(work.path, work)
       });
       setWorkMap(workMap);
