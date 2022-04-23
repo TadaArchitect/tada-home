@@ -25,6 +25,7 @@ function Home() {
 
 
 
+
   return (
     <main>
         <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
@@ -92,10 +93,9 @@ function Home() {
             <a href="https://blog.arttada.com/"><img src="images/blog.png" alt=""/></a>
         </div>
 
-        {/* <div class="sns">
-            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftadaarchitects%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-            <a class="houzz-review-widget" data-pro="arttada" data-hzid="58066" data-locale="ja-JP" href="https://www.houzz.jp">Houzz</a><script>(function(d,s,id){if(!d.getElementById(id)){var js=d.createElement(s);js.id=id;js.async=true;js.src="//platform.houzz.com/js/widgets.js?"+(new Date().getTime());var ss=d.getElementsByTagName(s)[0];ss.parentNode.insertBefore(js,ss);}})(document,"script","houzzwidget-js");</script></div>
-        </div> */}
+        <div class="sns">
+            <a class="houzz-review-widget" data-pro="arttada" data-hzid="58066" data-locale="ja-JP" href="https://www.houzz.jp">Houzz</a>{(function(d,s,id){if(!d.getElementById(id)){var js=d.createElement(s);js.id=id;js.async=true;js.src="//platform.houzz.com/js/widgets.js?"+(new Date().getTime());var ss=d.getElementsByTagName(s)[0];ss.parentNode.insertBefore(js,ss);}})(document,"script","houzzwidget-js")}
+        </div>
     </main>
   );
 }
