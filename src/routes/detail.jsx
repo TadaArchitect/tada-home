@@ -22,7 +22,7 @@ export default function Detail(props) {
                     {work.text}
                 </div>
             </div>
-            <p className="detail-image"><a href="detail"><img src="images/workBack.png" alt="" /></a></p>
+            <p className="detail-image"><a href="detail"><img src="/images/workBack.png" alt="" /></a></p>
         </main>
     );
 }

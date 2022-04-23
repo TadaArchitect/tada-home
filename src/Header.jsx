@@ -20,7 +20,7 @@ export default function Header() {
             <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white" id="header">
                 <div class="container-fluid">
                     <div class="col-md-2 navbar-brand ps-4 row" id="top-fixed-1">
-                        <p class="col-7"><a href="/"><img src="images/name.jpg" alt="多田設計事務所"/></a></p>
+                        <p class="col-7"><a href="/"><img src="/images/name.jpg" alt="多田設計事務所"/></a></p>
                     </div>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
                         aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
