@@ -11,7 +11,7 @@ function Home() {
 
   useEffect(() => {
     // データベースからデータを取得する
-    const postData = collection(db, "posts");
+    const postData = collection(db, "news");
     getDocs(postData).then((snapShot) => {
       // console.log(snapShot.docs.map((doc) => ({ ...doc.data() })));
       setPosts(snapShot.docs.map((doc) => ({ ...doc.data() })));
@@ -84,9 +84,9 @@ function Home() {
         <div className="news">
             <h1>NEWS</h1>
               {posts.map((post) => (
-                <div className="news-box" key={post.title}>
-                  <p className="time">{post.text}</p>
-                  <p className="news-list"><a href="">{post.title}</a></p>
+                <div className="news-box" key={post.text}>
+                  <p className="time">{post.date}</p>
+                  <p className="news-list">{post.link !== "" ? <a href={post.link}>{post.text}</a> : post.text}</p>
                 </div>
               ))}
             <a href="https://blog.arttada.com/"><img src="images/blog.png" alt=""/></a>

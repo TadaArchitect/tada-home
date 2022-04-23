@@ -18,7 +18,7 @@ export default function Work(props) {
                     </div>
                 </div>
             ): <></>))}
-        </div>
+            </div>
         <div class="title-box work-width">
             <h1 class="work-margin">住宅</h1>
             {works.map((work => work.type === "house" ? (
