@@ -832,53 +832,6 @@ footer {
   }
 }
 
-@media only screen and (max-width: 1200px) {
-  .detail-box {
-    .detail-img {
-      a {
-        // height: 200px;
-
-        img {
-          //   object-fit: cover;
-          //   width: 200px;
-          //   height: 200px;
-        }
-      }
-    }
-  }
-}
-
-@media only screen and (max-width: 1000px) {
-  .detail-box {
-    .detail-img {
-      a {
-        // height: 180px;
-
-        img {
-          //   object-fit: cover;
-          //   width: 180px;
-          //   height: 180px;
-        }
-      }
-    }
-  }
-}
-
-@media only screen and (max-width: 950px) {
-  .detail-box {
-    .detail-img {
-      a {
-        // height: 160px;
-        img {
-          //   object-fit: cover;
-          //   width: 160px;
-          //   height: 160px;
-        }
-      }
-    }
-  }
-}
-
 @media only screen and (max-width: 900px) {
   .detail-box {
     flex-direction: column-reverse;
