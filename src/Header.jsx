@@ -28,12 +28,12 @@ export default function Header() {
                     </button>
                     <div class="collapse navbar-collapse pe-5" id="navbarToggler">
                         <ul class="col-md-9 navbar-nav justify-content-end header-menu">
-                            <li class="menu-list nav-item"><a class="nav-link" href="philosophy">理念</a></li>
-                            <li class="menu-list nav-item"><a class="nav-link" href="work">作品</a></li>
-                            <li class="menu-list nav-item"><a class="nav-link" href="magazine">雑誌掲載</a></li>
-                            <li class="menu-list nav-item"><a class="nav-link" href="profile">プロフィール</a></li>
-                            <li class="menu-list nav-item"><a class="nav-link" href="overview">事務所概要</a></li>
-                            <li class="menu-list nav-item"><a class="nav-link" href="flow">設計の流れ</a></li>
+                            <li class="menu-list nav-item"><a class="nav-link" href="/philosophy">理念</a></li>
+                            <li class="menu-list nav-item"><a class="nav-link" href="/work">作品</a></li>
+                            <li class="menu-list nav-item"><a class="nav-link" href="/magazine">雑誌掲載</a></li>
+                            <li class="menu-list nav-item"><a class="nav-link" href="/profile">プロフィール</a></li>
+                            <li class="menu-list nav-item"><a class="nav-link" href="/overview">事務所概要</a></li>
+                            <li class="menu-list nav-item"><a class="nav-link" href="/flow">設計の流れ</a></li>
                         </ul>
                         <div class="col-md-3 header-box">
                             <p>TEL : 0466-42-1793</p>

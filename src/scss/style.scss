@@ -695,15 +695,18 @@ footer {
     //     flex-wrap: wrap;
     // }
 
-    .work-card {
+    .work-cards {
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .work-card {
 
         .work-box {
             overflow:	hidden;
             position: relative;
-            width: 31%;
-            height: 243px;
+            width: 24em;
+            height: auto;
             margin-bottom: 50px;
 
             &:hover .mask {
@@ -778,7 +781,7 @@ footer {
 @media only screen and (max-width: 900px) {
     .title-box {
 
-        .work-card {
+        .work-cards {
             display: block;
     
             .work-box {
@@ -849,6 +852,7 @@ footer {
         width: 30%;
         font-size: 16px;
         line-height: 24px;
+        white-space: pre-wrap;
     }
 }
 
@@ -1008,11 +1012,6 @@ footer {
 .profile-title {
     margin-bottom: 80px;
 
-    img {
-        width: 200px;
-        height: auto;
-    }
-
     h1 {
         color: #333;
         font-weight: bolder;
@@ -1021,6 +1020,8 @@ footer {
 
     p > img {
         margin-bottom: 20px;
+        width: 200px;
+        height: auto;
     }
 
     p {
@@ -1033,6 +1034,7 @@ footer {
         color: #5fa6ac;
     }
 }
+
 
 @media only screen and (max-width: 462px) {
     .profile-title {
