@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "tada-architect"
+  },
+  "targets": {
+    "tada-architect": {
+      "hosting": {
+        "home": [
+          "arttada-home"
+        ]
+      }
+    }
   }
 }
