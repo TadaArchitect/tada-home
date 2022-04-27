@@ -80,6 +80,10 @@ function Home() {
         </button>
       </div>
 
+      <div class="scrolldown2">
+        <span>Scroll</span>
+      </div>
+
       <div className="home-text">
         <p>
           <img src="images/hiroshi.jpg" alt=" " />
