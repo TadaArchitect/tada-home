@@ -11,7 +11,7 @@ import Overview from "./routes/overview";
 import Flow from "./routes/flow";
 import Footer from "./Footer";
 import db from "./firebase";
-import { doc, collection, getDocs, onSnapshot } from "firebase/firestore";
+import { collection, getDocs, onSnapshot } from "firebase/firestore";
 
 function App() {
   const [workMap, setWorkMap] = useState(new Map());

@@ -12,7 +12,7 @@ export default function Detail(props) {
         <div className="detail-img">
           {work.images.map((image) => (
             <a href={image.imageUrl}>
-              <img src={image.thumbnailImageUrl} />
+              <img src={image.thumbnailImageUrl} alt="サムネイルイメージ" />
             </a>
           ))}
         </div>
