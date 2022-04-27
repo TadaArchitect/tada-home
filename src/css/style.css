@@ -186,6 +186,9 @@ footer p {
 footer nav ul li {
   list-style: none;
 }
+footer nav ul li li + li {
+  margin-top: 20px;
+}
 footer nav ul li a {
   text-decoration: none;
   font-size: 12px;

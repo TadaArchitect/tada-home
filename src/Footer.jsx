@@ -9,19 +9,21 @@ export default function Footer() {
       <nav>
         <ul className="footer-menu">
           <li class="menu-list">
-            <a href="">事務所概要</a>
+            <a href="/philosophy">理念</a>
           </li>
           <li class="menu-list">
-            <a href="">お問い合わせ</a>
+            <a href="/overview">事務所概要</a>
           </li>
           <li class="menu-list">
-            <a href="">多田裕子ブログ</a>
+            <a href="https://blog.arttada.com/">多田裕子ブログ</a>
           </li>
-          <li class="menu-list">
+          {/* <li class="menu-list">
             <a href="">リンク</a>
-          </li>
+          </li> */}
           <li class="menu-list">
-            <a href="">プライバシーポリシー</a>
+            <a href="https://157.7.245.192/download_file/view/906/1">
+              プライバシーポリシー
+            </a>
           </li>
         </ul>
       </nav>

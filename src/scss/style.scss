@@ -283,6 +283,10 @@ footer {
       li {
         list-style: none;
 
+        li + li {
+          margin-top: 20px;
+        }
+
         a {
           text-decoration: none;
           font-size: 12px;
